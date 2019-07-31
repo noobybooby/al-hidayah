@@ -1,0 +1,91 @@
+<div style="background-color: #EFF9A0">
+  <img src="../../assets/images/Group 19.png" alt="" class="img-fluid" />
+</div>
+
+<div style="background-color: #EFF9A0" class="container-fluid">
+  <div class="container" style="padding: 5%">
+    <h1>Classrooms</h1>
+    <br /><br />
+    <div class="row">
+      <div class="col-md-6">
+        <img src="../../assets/images/c1.jfif" alt="" class="img-fluid" />
+      </div>
+      <div class="col-md-6">
+        <img src="../../assets/images/c2.jfif" alt="" class="img-fluid" />
+      </div>
+    </div>
+    <br /><br />
+    <div class="row">
+      <div class="col-md-6">
+        <img src="../../assets/images/c3.jfif" alt="" class="img-fluid" />
+      </div>
+      <div class="col-md-6">
+        <img src="../../assets/images/c4.jfif" alt="" class="img-fluid" />
+      </div>
+    </div>
+    <br /><br />
+    <img src="../../assets/images/c5.jfif" alt="" class="img-fluid" />
+    <br /><br /><br /><br />
+    <h1>Videos</h1>
+    <br /><br /><br />
+    <h2>Annual Day 2019</h2>
+    <br /><br />
+    <youtube-player
+      [videoId]="id1"
+      (ready)="savePlayer($event)"
+      (change)="onStateChange($event)"
+    ></youtube-player>
+
+    <youtube-player
+      style="margin-left: 120px"
+      [videoId]="id2"
+      (ready)="savePlayer($event)"
+      (change)="onStateChange($event)"
+    ></youtube-player>
+
+    <br /><br />
+
+    <youtube-player
+      [videoId]="id3"
+      (ready)="savePlayer($event)"
+      (change)="onStateChange($event)"
+    ></youtube-player>
+
+    <youtube-player
+      style="margin-left: 120px"
+      [videoId]="id4"
+      (ready)="savePlayer($event)"
+      (change)="onStateChange($event)"
+    ></youtube-player>
+
+    <br /><br />
+
+    <youtube-player
+      [videoId]="id5"
+      (ready)="savePlayer($event)"
+      (change)="onStateChange($event)"
+    ></youtube-player>
+
+    <youtube-player
+      style="margin-left: 120px"
+      [videoId]="id6"
+      (ready)="savePlayer($event)"
+      (change)="onStateChange($event)"
+    ></youtube-player>
+    <br /><br /><br /><br />
+    <h3>Red Day Celebration</h3>
+    <br />
+    <youtube-player
+      [videoId]="id8"
+      (ready)="savePlayer($event)"
+      (change)="onStateChange($event)"
+    ></youtube-player>
+  </div>
+  <footer style="padding-bottom:1%">
+    <p class="float-right">All Rights Reserved.</p>
+    <p>
+      &copy; 2017-2019 Al Hidayah International Islamic School&middot;
+      <a href="#">Privacy</a> &middot; <a href="#">Terms</a>
+    </p>
+  </footer>
+</div>
